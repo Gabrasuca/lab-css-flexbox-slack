@@ -8,3 +8,104 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  body, html{
+    height: 100vw;
+    width: 100vh;
+  }
+.nav-bar{
+    background-color: #540B51;
+}
+header {
+    background-color: #540B51;
+    color: white;
+}
+.span1 {
+    color: #ECB12F
+}
+.botoes{
+    display:flex;
+    flex-direction:column;
+    padding: 10px;
+    gap:10px;
+    justify-content: center;
+    align-items: center
+}
+.botao1{
+    color:#540B51;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+	width: 200px;
+}
+.botao2{
+    background-color: #B9DFFF;
+    height: 90%;
+	width: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width:80%;
+    gap: 30px
+    
+}
+.sections{
+    background-color: #F3EAE2;
+    width:100vw;
+    display:flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2{
+    background-color: #F3EAE2;
+    width:100vw;
+    display:flex;
+    flex-direction: colum;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.images{
+    width: 90%;
+    height: 80%;
+}
+.titles{
+    color: #191817;
+    font:bold
+}
+.why{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .inicio{
+        display:none;
+    }
+
+}
