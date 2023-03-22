@@ -53,13 +53,13 @@ header {
     color:#540B51;
     justify-content: center;
     align-items: center;
-    height: 100px;
-	width: 200px;
+    height: 90%;
+	width: 100%;
 }
 .botao2{
-    background-color: #B9DFFF;
+    background-color: #4285F4;
     height: 90%;
-	width: 200px;
+	width: 100%;
 }
 .logo{
     display: flex;
