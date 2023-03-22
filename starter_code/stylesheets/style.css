@@ -96,12 +96,40 @@ header {
 }
 .titles{
     color: #191817;
-    font:bold
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .why{
     display: flex;
     align-items:start;
     justify-content: space-between;
+}
+.porcentagens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.text{
+    font-weight: bold;
+}
+.titulo{
+    color:#540B51;
+    font-weight: bold;
+}
+.botao3{
+    color:white;
+    background-color: #540B51;
+    height: 90%;
+    width: 100%;
+}
+.botao4{
+    color:#540B51;
+    background-color: white;
+    height: 90%;
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     .inicio{
